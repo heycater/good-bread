@@ -44,6 +44,29 @@
   display: flex;
   flex-direction: column;
 }
+.goodbread__cta_caption__text {
+  margin: 0;
+  font-size: 20px;
+  line-height: 32px;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+ .goodbread__cta_caption__blog_link {
+  font-size: 12px;
+  text-decoration: none;
+  color: #3C4340;
+  line-height: 17px;
+ }
+ 
+ .goodbread__cta_caption__action {
+  margin-top: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.goodbread__cta_caption__action_btn {
+  cursor: pointer;
+}
 
 .goodbread__widget_cta .goodbread__widget_button-text {
   opacity: 1;
@@ -84,11 +107,12 @@
   
 }
 
-.goodbread__widget_cta:hover .goodbread__widget_button-text button { 
-  width: 284px;
-  height: 40px;
-  left: 473px;
-  top: 1519px;
+.goodbread__widget_cta:hover .goodbread__widget_button-text .goodbread__cta_caption__action_btn { 
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-size: 14px;
+  padding: 8px 34px;
   background: #FFDB4A;
   border-radius: 50px;
   border: none;
