@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-import Cart from "./Cart";
 
 function App() {
   return (
@@ -11,10 +10,14 @@ function App() {
     >
       <div className="goodbread__widget_cta">
         <div className="goodbread__widget_cart">
-          <Cart />
+          <img src="logo.png"/>
         </div>
         <div className="goodbread__widget_button-text">
-          Order here!
+          <img src="logo.png"/>
+          <div className="goodbread__cta_caption">
+            heycater! is helping Good Bread feed people in need in Ukraine <a href="google.com"> learn more.</a>
+            <button> Donate via Paypal </button>
+          </div>
         </div>
       </div>
     </a>
